@@ -27,7 +27,7 @@ jobs:
 
 
       - name: Run Web UI Tests with Gradle
-        working-directory: ./web-automation
+        working-directory: ./untitled29
         run: ./gradlew clean test --no-daemon
 
       - name: Upload Web UI Test Report
